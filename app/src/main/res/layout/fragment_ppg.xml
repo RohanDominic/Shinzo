@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shinzo.ppg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- Copy from here -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:text="Instructions"
+                android:textSize="20dp"
+                android:id="@+id/instruction"
+                android:onClick="ShowPopup"
+                android:layout_gravity="center_horizontal|top" />
+            />
+        </LinearLayout>
+        <!-- To herel, and paste under -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Recording"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Record"
+                android:onClick="ppgCam"
+                android:textSize="20dp"
+                android:id="@+id/buttoncam"
+                android:background="@drawable/button_border"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart Rate"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Arrhythmia Type"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="1"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322382864408",
+    "firebase_url": "https://shinzo-5f67b.firebaseio.com",
+    "project_id": "shinzo-5f67b",
+    "storage_bucket": "shinzo-5f67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322382864408:android:a063a93eb54ee7f8",
+        "android_client_info": {
+          "package_name": "com.example.shinzo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322382864408-i690r0kcictqo75072sqrtoi8s1l00uq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shinzo",
+            "certificate_hash": "aebc6196fc672b1ce7fc48f42ebbeda56cadf8fd"
+          }
+        },
+        {
+          "client_id": "322382864408-3859b22ogjt9nub52ul0lf4et3l6e3l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGXrNWbISQGDmrcU-vSTX6MLfhnkHX0Xk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322382864408-3859b22ogjt9nub52ul0lf4et3l6e3l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
